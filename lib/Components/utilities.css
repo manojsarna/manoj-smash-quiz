@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--COLOR-FONT);
+    background: var(--COLOR-BG);
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 8.7rem 1fr 8rem;
+}
+
+/* FOR CARDS */
+.sm-card .sm-card-content .sm-card-info .cart-btn{
+    white-space: nowrap;
+}
+
+.sm-card{
+    width: 24rem;
+}
+
+.icon-bd-top-right {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
