@@ -57,11 +57,11 @@
     object-fit: cover;
     width: 100%;
     height: 25rem;
-    border-radius: 30px;
+    border-radius: 3rem;
 }
 
 .sm-box-shad-hov {
-    border-radius: 30px;
+    border-radius: 3rem;
     transition: all ease-in 0.2s;
 }
 
@@ -83,7 +83,7 @@
     color: var(--COLOR-WHITE-ALWAYS);
     text-shadow: 0px 5px 5px var(--COLOR-BLACK);
     font-weight: 800;
-    border-radius: 30px;
+    border-radius: 3rem;
     background: var(--COLOR-BLACK-40);
 }
 
@@ -134,12 +134,6 @@
 @media only screen and (max-width:768px){
     :root{
         font-size:45%;
-    }
-
-    .sm-header-nav {
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-        place-items: center;
     }
     
     .sm-header-nav-search{
