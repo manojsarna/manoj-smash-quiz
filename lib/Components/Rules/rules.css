@@ -1,0 +1,71 @@
+@import "/lib/Components/core.css";
+@import "/lib/Components/utilities.css";
+@import "/lib/Components/Header/header.css";
+@import "/lib/Components/Footer/footer.css";
+
+/* MAIN STARTS */
+
+.sm-main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "categories";
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    min-width: 100%;
+    place-content: center;
+}
+
+.sm-main-rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 6rem;
+    border-radius: 3rem;
+    margin: 4rem;
+    width: fit-content;
+    border: 2px solid var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-main-rules-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.icon-btn {
+    margin-left: 1rem;
+}
+
+.btn-start-quiz {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* MAIN ENDS */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:768px) {
+    :root {
+        font-size: 45%;
+    }
+
+    .sm-header-nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        place-items: center;
+    }
+
+    .sm-header-nav-search {
+        display: none;
+    }
+
+    .sm-header-btn-wrapper {
+        margin-left: 0;
+    }
+}
