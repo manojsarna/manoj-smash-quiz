@@ -1,0 +1,82 @@
+/* HEADER STARTS */
+
+.sm-header{
+    grid-area: header;
+    padding: 0 1rem;
+    position: fixed;
+    z-index:2;
+    width: 100%;
+    top:0;
+    background: var(--COLOR-BG); 
+    margin: auto;
+    border-bottom: 2px solid var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-nav-new{
+    padding:1rem;
+}
+
+#sc-login{
+    white-space: nowrap;
+}
+
+#sc-logo {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.btn-social{
+    outline: none;
+    border:none;
+    background: none;
+    color: var(--COLOR-HEADER-FONT-DARK);
+    cursor: pointer;
+    font-size:2.5rem;
+    transition: color ease-in 0.2s
+}
+.btn-social:hover{
+    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
+}
+.color-dm {
+    color: var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-action-icon-btn-wrapper .sm-icon-btn-primary:hover {
+    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
+}
+
+.icon-bd-top-right{
+    font-weight: 800;
+    font-size: 1.2rem;
+
+}
+
+.btn-logged-in-user,.btn-dark-mode{
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+}
+
+/* HEADER ENDS */
+
+/* MEDIA QUERIES FOR HEADERS*/
+@media only screen and (max-width:768px){
+    :root{
+        font-size:45%;
+    }
+    .sm-nav-search{
+        display: none;
+    }
+    .sm-header{
+        padding: 1rem 2rem;
+    }
+    .sm-nav-new{
+        padding: 0;
+        font-size: 1.3rem;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .sm-action-icon-btn-wrapper{
+        gap:2px;
+    }
+
+}
