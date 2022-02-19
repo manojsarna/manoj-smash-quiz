@@ -1,13 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmashQuiz - Home - Manoj Sarna</title>
-    <link rel="stylesheet"  href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/lib/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Smash Quiz Coming Soon...</h1>
+    <header class="sm-header">
+        <nav class="sm-nav-new">
+            <!-- LOGO -->
+            <a href="/" class="link-text-dec" title="Go To Home">
+                <div id="sc-logo" class=" sm-nav-logo flex-row-wrap sm-logo">
+                    <span class="sm-header-icon">
+                        <i class="fas fa-clone"></i>
+                    </span>
+                    <span>SmashQuiz</span>
+                </div>
+            </a>
+            <!-- SEARCH -->
+            <div class="sm-nav-search">
+                <div class="sm-input-container input-search">
+                    <input type="text" class="input-basic input-basic-icon" placeholder="Search..." name="search" />
+                    <i class="icon-basic fas fa-search"></i>
+                </div>
+            </div>
+            <!-- ICONS BUTTONS FOR CTA -->
+            <div class="sm-action-icon-btn-wrapper">
+                <!-- DARK MODE BUTTON -->
+                <button id="btn-dm" class="btn-social btn-dark-mode ">
+                    <i class="fas fa-moon" title="Switch To Dark Mode"></i>
+                </button>
+                <!-- Login Button -->
+                <button id="sc-login" class="btn btn-primary sm-login">
+                    <i class="fas fa-sign-in-alt icon-in-btn"></i>
+                    Login
+                </button>
+            </div>
+        </nav>
+    </header>    
+
+    <main class="sm-main">
+        <div class="sm-main-categories">
+            <h2>Featured Categories</h2>
+            <div class="sm-main-cat-container">
+                <a href="/lib/Components/Category/tvshows/tvshows.html">
+                    <div class="sm-main-cat-child sm-box-shad-hov">
+                        <img id="sm-tv-shows-img" src="/lib/assets/images/tvshows/tv-1.webp" alt="badminton">
+                        <div class="sm-man-cat-text sm-grid-text">
+                            <span>TV Shows</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/lib/Components/Category/tvshows/tvshows.html">
+                    <div id="sm-movies" class="sm-main-cat-child sm-box-shad-hov">
+                        <img id="sm-movies-img" src="/lib/assets/images/movies/m-1.webp" alt="badminton">
+                        <div class="sm-man-cat-text sm-grid-text">
+                            <span>Movies</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/lib/Components/Category/tvshows/tvshows.html">
+                    <div id="sm-movies" class="sm-main-cat-child sm-box-shad-hov">
+                        <img id="sm-sports-img" src="/lib/assets/images/sports/s-1.webp" alt="badminton">
+                        <div class="sm-man-cat-text sm-grid-text">
+                            <span>Sports</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/lib/Components/Category/tvshows/tvshows.html">                
+                    <div id="sm-movies" class="sm-main-cat-child sm-box-shad-hov">
+                        <img id="sm-tech-img" src="/lib/assets/images/tech/t-1.webp" alt="badminton">
+                        <div class="sm-man-cat-text sm-grid-text">
+                            <span>Technology</span>
+                        </div>
+                    </div>                
+                </a>
+            </div>
+        </div>
+        <div class="sm-main-feature-p">
+            <h2 class="prod-heading">Top Picks</h2>
+            <div class="sm-main-prod-container">
+                <div class="sm-quiz-card-container">
+                    <div class="sm-quiz-card-img">
+                        <img src="/lib/assets/images/tvshows/tv-4.webp" alt="tvshow">
+                        <div class="sm-quiz-card-title sm-grid-text">
+                            <span>Suits</span>
+                        </div>
+                    </div>
+                    <div class="sm-quiz-card-content">
+                        <h1 class="sm-quiz-card-subtitle">I dont play the odd's , I play the man.</h1>
+                        <h2 class="sm-quiz-card-info">Take this Quiz to test yourself!</h2>
+                        <p class="sm-quiz-card-desc">
+                            <span>5 Questions</span>
+                            <a href="/lib/Components/Rules/rules.html" class="sm-quiz-card-take-quiz">
+                                <span >
+                                    Take Quiz  
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="sm-quiz-card-container">
+                    <div class="sm-quiz-card-img">
+                        <img src="/lib/assets/images/tvshows/tv-3.webp" alt="tvshow">
+                        <div class="sm-quiz-card-title sm-grid-text">
+                            <span>Suits</span>
+                        </div>
+                    </div>
+                    <div class="sm-quiz-card-content">
+                        <h1 class="sm-quiz-card-subtitle">I dont play the odd's , I play the man.</h1>
+                        <h2 class="sm-quiz-card-info">Take this Quiz to test yourself!</h2>
+                        <p class="sm-quiz-card-desc">
+                            <span>5 Questions</span>
+                            <a href="/lib/Components/Rules/rules.html" class="sm-quiz-card-take-quiz">
+                                <span >
+                                    Take Quiz  
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="sm-quiz-card-container">
+                    <div class="sm-quiz-card-img">
+                        <img src="/lib/assets/images/tvshows/tv-3.webp" alt="tvshow">
+                        <div class="sm-quiz-card-title sm-grid-text">
+                            <span>Suits</span>
+                        </div>
+                    </div>
+                    <div class="sm-quiz-card-content">
+                        <h1 class="sm-quiz-card-subtitle">I dont play the odd's , I play the man.</h1>
+                        <h2 class="sm-quiz-card-info">Take this Quiz to test yourself!</h2>
+                        <p class="sm-quiz-card-desc">
+                            <span>5 Questions</span>
+                            <a href="/lib/Components/Rules/rules.html" class="sm-quiz-card-take-quiz">
+                                <span >
+                                    Take Quiz  
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="sm-quiz-card-container">
+                    <div class="sm-quiz-card-img">
+                        <img src="/lib/assets/images/tvshows/tv-5.webp" alt="tvshow">
+                        <div class="sm-quiz-card-title sm-grid-text">
+                            <span>Suits</span>
+                        </div>
+                    </div>
+                    <div class="sm-quiz-card-content">
+                        <h1 class="sm-quiz-card-subtitle">I dont play the odd's , I play the man.</h1>
+                        <h2 class="sm-quiz-card-info">Take this Quiz to test yourself!</h2>
+                        <p class="sm-quiz-card-desc">
+                            <span>5 Questions</span>
+                            <a href="/lib/Components/Rules/rules.html" class="sm-quiz-card-take-quiz">
+                                <span >
+                                    Take Quiz  
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>                
+            </div>
+        </div>         
+    </main>
+    <footer class="sm-footer">
+        <h4>Made with ❤️ by <strong>Manoj Sarna</strong></h4>
+        <div class="sm-footer-social">
+            <a href="https://twitter.com/manojsarnacom" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="Twitter"><i class="btn-social fab fa-twitter"></i></a>
+            <a href="https://github.com/manojsarna/manoj-smash-quiz" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="GitHub"><i class="btn-social fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="/lib/assets/lightdarktheme/lightdarkhome.js"></script>
+    <script src="/lib/Components/Header/header.js"></script>
 </body>
+
 </html>
