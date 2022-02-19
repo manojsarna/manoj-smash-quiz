@@ -1,0 +1,68 @@
+@import "/lib/Components/core.css";
+@import "/lib/Components/utilities.css";
+@import "/lib/Components/Header/header.css";
+@import "/lib/Components/Footer/footer.css";
+@import "/lib/Components/QuizCard/quizcard.css";
+
+/* MAIN STARTS */
+.sm-main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "categories";
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    min-width: 100%;
+}
+
+.sm-main-feature-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 2rem 2rem;
+}
+
+.prod-heading {
+    margin: 2rem;
+}
+
+.sm-main-prod-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    max-width: 100vw;
+    height: fit-content;
+}
+
+/* MAIN ENDS */
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:768px) {
+    :root {
+        font-size: 45%;
+    }
+
+    .sm-header-nav-search {
+        display: none;
+    }
+
+    .sm-header-btn-wrapper {
+        margin-left: 0;
+    }
+
+    .sm-main-cat-container {
+        padding: 0 1rem;
+    }
+
+    .sm-main-cat-child {
+        width: 20rem;
+    }
+
+    .sm-main-cat-child img {
+        height: 20rem;
+    }
+}

@@ -23,3 +23,15 @@
 }
 
 /* FOOTER ENDS */
+
+/* MEDIA QUERIES FOR FOOTERS*/
+
+@media only screen and (max-width:768px) {
+
+    .sm-footer {
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}
