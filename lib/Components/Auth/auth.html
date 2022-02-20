@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmashQuiz - Home - Manoj Sarna</title>
+    <link rel="icon" type="image/x-icon" href="/lib/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+    <header class="sm-header">
+        <nav class="sm-nav-new">
+            <!-- LOGO -->
+            <a href="/" class="link-text-dec" title="Go To Home">
+                <div id="sc-logo" class=" sm-nav-logo flex-row-wrap sm-logo">
+                    <span class="sm-header-icon">
+                        <i class="fas fa-clone"></i>
+                    </span>
+                    <span>SmashQuiz</span>
+                </div>
+            </a>
+            <!-- SEARCH -->
+            <div class="sm-nav-search">
+                <div class="sm-input-container input-search">
+                    <input type="text" class="input-basic input-basic-icon" placeholder="Search..." name="search" />
+                    <i class="icon-basic fas fa-search"></i>
+                </div>
+            </div>
+            <!-- ICONS BUTTONS FOR CTA -->
+            <div class="sm-action-icon-btn-wrapper">
+                <!-- DARK MODE BUTTON -->
+                <button id="btn-dm" class="btn-social btn-dark-mode ">
+                    <i class="fas fa-moon" title="Switch To Dark Mode"></i>
+                </button>
+                <!-- Login Button -->
+                <button id="sc-login" class="btn btn-primary sm-login">
+                    <i class="fas fa-sign-in-alt icon-in-btn"></i>
+                    Login
+                </button>
+            </div>
+        </nav>
+    </header>    
+
+    <main class="sm-main-auth">
+
+        <!-- LOGIN -->
+        <div id="auth-login" class="sm-main-auth-login">
+
+            <h2 class="fw-800">Login</h2>
+
+            <div class="auth-email-pass">
+                <div class="sm-input-container input-user">
+                    <input type="email" class="input-basic input-basic-icon" placeholder="Enter Email" name="user" />
+                    <i class="icon-basic fas fa-envelope"></i>
+                </div>
+                <div class="sm-input-container input-pass">
+                    <input type="password" class="input-basic input-basic-icon" placeholder="Enter Password"
+                        name="password" />
+                    <i class="icon-basic fas fa-key"></i>
+                </div>
+            </div>
+
+            <div class="auth-for-rem">
+                <a href="#" class=" sm-auth-forget">Forgot your password?</a>
+                <div class="sm-auth-rem">
+                    <input type="checkbox" value="" />
+                    <span class="auth-rem-text">Remember Me</span>
+                </div>
+            </div>
+
+            <button class=" btn btn-primary btn-bold auth-btn">Login</button>
+            <button id="sm-auth-signup-btn" class="btn btn-bold btn-outline auth-btn">Signup</button>
+
+
+        </div>
+
+        <!-- SIGNUP -->
+
+        <div id="auth-signup" class="sm-main-auth-signup sm-main-auth-hide">
+
+            <h2 class="fw-800">Signup</h2>
+
+            <div class="auth-email-pass">
+                <div class="sm-input-container input-user">
+                    <input type="email" class="input-basic input-basic-icon" placeholder="Enter Name" name="user" />
+                    <i class="icon-basic fas fa-user"></i>
+                </div>
+                <div class="sm-input-container input-user">
+                    <input type="email" class="input-basic input-basic-icon" placeholder="Enter Email" name="user" />
+                    <i class="icon-basic fas fa-envelope"></i>
+                </div>
+                <div class="sm-input-container input-pass">
+                    <input type="password" class="input-basic input-basic-icon" placeholder="Enter Password"
+                        name="password" />
+                    <i class="icon-basic fas fa-key"></i>
+                </div>
+                <div class="sm-input-container input-pass">
+                    <input type="password" class="input-basic input-basic-icon" placeholder="Confirm Password"
+                        name="password" />
+                    <i class="icon-basic fas fa-key"></i>
+                </div>                
+            </div>
+
+            <div class="sm-auth-accept">
+                <input type="checkbox" value="">
+                <span class="sm-auth-signup-txt">I accept all
+                    <a href="#" class="sm-auth-forget">Terms &amp; Conditions</a></span>
+            </div>
+
+            <button id="sm-auth-signup-btn" class="auth-btn btn btn-primary btn-bold ">Signup</button>
+            <button id="sm-auth-login-btn"
+                class="auth-btn btn btn-primary btn-bold btn-outline ">Login</button>
+
+
+        </div>
+
+    </main>
+
+    <footer class="sm-footer">
+        <h4>Made with ❤️ by <strong>Manoj Sarna</strong></h4>
+        <div class="sm-footer-social">
+            <a href="https://twitter.com/manojsarnacom" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="Twitter"><i class="btn-social fab fa-twitter"></i></a>
+            <a href="https://github.com/manojsarna/manoj-smash-quiz" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="GitHub"><i class="btn-social fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="/lib/assets/lightdarktheme/lightdarkhome.js"></script>
+    <script src="/lib/Components/Auth/auth.js"></script>
+    <script src="/lib/Components/Header/header.js"></script>
+</body>
+
+</html>
