@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmashQuiz - Home - Manoj Sarna</title>
+    <link rel="icon" type="image/x-icon" href="/lib/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="rules.css">
+</head>
+
+<body>
+    <header class="sm-header">
+        <nav class="sm-nav-new">
+            <!-- LOGO -->
+            <a href="/" class="link-text-dec" title="Go To Home">
+                <div id="sc-logo" class=" sm-nav-logo flex-row-wrap sm-logo">
+                    <span class="sm-header-icon">
+                        <i class="fas fa-clone"></i>
+                    </span>
+                    <span>SmashQuiz</span>
+                </div>
+            </a>
+            <!-- SEARCH -->
+            <div class="sm-nav-search">
+                <div class="sm-input-container input-search">
+                    <input type="text" class="input-basic input-basic-icon" placeholder="Search..." name="search" />
+                    <i class="icon-basic fas fa-search"></i>
+                </div>
+            </div>
+            <!-- ICONS BUTTONS FOR CTA -->
+            <div class="sm-action-icon-btn-wrapper">
+                <!-- DARK MODE BUTTON -->
+                <button id="btn-dm" class="btn-social btn-dark-mode ">
+                    <i class="fas fa-moon" title="Switch To Dark Mode"></i>
+                </button>
+                <!-- Login Button -->
+                <button id="sc-login" class="btn btn-primary sm-login">
+                    <i class="fas fa-sign-in-alt icon-in-btn"></i>
+                    Login
+                </button>
+            </div>
+        </nav>
+    </header>    
+
+    <main class="sm-main">
+        <div class="sm-main-rules">
+            <h1 class="rules-heading">Rules</h1>
+            <ol class="sm-main-rules-container">
+                <li>This quiz consists of 5 multiple-choice questions.</li>
+                <li>
+                    Time alotted for the quiz : 20 minutes.
+                </li>
+                <li>
+                    Points will be awarded : 2 points for each right answer.
+                </li>
+                <li>Each multiple choice question has only one correct answer.</li>
+                <li>
+                    To start, click the Start Quiz button. When finished, click the Submit
+                    button.
+                </li>
+            </ol>
+            <a href="/lib/Components/Questions/questions.html" class="btn btn-primary btn-bolder btn-start-quiz">
+                Start Quiz
+                <i class="icon-btn fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </main>
+
+    <footer class="sm-footer">
+        <h4>Made with ❤️ by <strong>Manoj Sarna</strong></h4>
+        <div class="sm-footer-social">
+            <a href="https://twitter.com/manojsarnacom" target="_blank" rel="noopener noreferrer"
+                class="btn-social-show" title="Twitter"><i class="btn-social fab fa-twitter"></i></a>
+            <a href="https://github.com/manojsarna/manoj-smash-quiz" target="_blank" rel="noopener noreferrer"
+                class="btn-social-show" title="GitHub"><i class="btn-social fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="/lib/assets/lightdarktheme/lightdarkhome.js"></script>
+    <script src="/lib/Components/Header/header.js"></script>
+</body>
+
+</html>

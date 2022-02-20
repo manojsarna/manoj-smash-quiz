@@ -87,22 +87,6 @@
     background: var(--COLOR-BLACK-40);
 }
 
-.sm-grid-text{
-    padding: 2rem;
-    display: flex;
-    align-items: flex-end;
-    gap: 2rem;
-}
-
-.sm-grid-content{
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
 .sm-man-cat-text:hover {
     color: var(--COLOR-LIGHTEN-2);
     background: var(--COLOR-BLACK-10);
