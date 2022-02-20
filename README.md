@@ -30,15 +30,15 @@ To start using the SmashQuiz you can visit the following link :
 
 - [Home Page](https://smashquiz.netlify.app/)
 - [Quizzes by Category](https://smashquiz.netlify.app/lib/components/category/tvshows/tvshows)
-- [Rules Page for while attempting Quiz](smashquiz.netlify.app/lib/components/rules/rules)
+- [Rules Page for while attempting Quiz](https://smashquiz.netlify.app/lib/components/rules/rules)
 - [MCQ based Quiz Question Page](https://smashquiz.netlify.app/lib/components/questions/questions)
-- [Result Page with Answers & Score](smashquiz.netlify.app/lib/components/result/result)
+- [Result Page with Answers & Score](https://smashquiz.netlify.app/lib/components/result/result)
 
 #### P1 Screens
 
-- [Timer for Quiz Questions](smashquiz.netlify.app/lib/components/questions/questions)
-- [Search Quiz](smashquiz.netlify.app/)
-- [Authentication](smashquiz.netlify.app/lib/components/auth/auth.html)
+- [Timer for Quiz Questions](https://smashquiz.netlify.app/lib/components/questions/questions)
+- [Search Quiz](https://smashquiz.netlify.app/)
+- [Authentication](https://smashquiz.netlify.app/lib/components/auth/auth.html)
 
 ---
 
