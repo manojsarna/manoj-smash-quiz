@@ -59,6 +59,37 @@
     padding: 1rem 1.5rem;
 }
 
+.btn-logged-in-user {
+    position: relative;
+}
+
+.sm-header-nav-user-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 10px;
+    top: 7rem;
+    right: 1rem;
+    background: var(--COLOR-BG);
+    box-shadow: 0 0 4px 0 var(--COLOR-BS-GREY);
+}
+
+.user-show-dropdown-hide {
+    display: none;
+}
+
+.btn-logged-in-user:hover + .user-show-dropdown-hide{
+    display: flex;
+}
+
+.user-show-dropdown-hide:hover{
+    display: flex;
+}
+
 /* HEADER ENDS */
 
 /* MEDIA QUERIES FOR HEADERS*/
