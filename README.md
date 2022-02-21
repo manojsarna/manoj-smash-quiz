@@ -39,11 +39,16 @@ To start using the SmashQuiz you can visit the following link :
 - [MCQ based Quiz Question Page](https://smashquiz.netlify.app/lib/components/questions/questions)
 - [Result Page with Answers & Score](https://smashquiz.netlify.app/lib/components/result/result)
 
-#### P1 Screens
+### P1 Screens
 
 - [Timer for Quiz Questions](https://smashquiz.netlify.app/lib/components/questions/questions)
 - [Search Quiz](https://smashquiz.netlify.app/)
 - [Authentication](https://smashquiz.netlify.app/lib/components/auth/auth.html)
+
+### Features Added
+
+- Responsive Site (Both desktop and mobile responsive)
+- Persisting Dark / Light Mode 
 
 ---
 ### My Inspiration For The Project
