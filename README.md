@@ -4,7 +4,7 @@
 
 <img alt="badminton" src="/lib/assets/logo/logo.png" width="1048px" height="238px" />
 
-Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) 
+Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) using [Smash UI](https://smashui.netlify.app/)
 
 [![GitHub followers](https://img.shields.io/github/followers/manojsarna?style=social)](https://github.com/manojsarna)
 &emsp;
