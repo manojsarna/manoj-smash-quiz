@@ -10,7 +10,7 @@ Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movie
 &emsp;
 ![Forks](https://img.shields.io/github/forks/manojsarna/manoj-smash-quiz)
 &emsp;
-![Stars](https://img.shields.io/github/forks/manojsarna/manoj-smash-quiz)
+![Stars](https://img.shields.io/github/stars/manojsarna/manoj-smash-quiz)
 &emsp;
 ![Twitter Follow](https://img.shields.io/twitter/follow/manojsarnacom?style=social)
 
