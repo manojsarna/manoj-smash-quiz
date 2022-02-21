@@ -6,13 +6,13 @@
 
 Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) 
 
-![GitHub followers](https://img.shields.io/github/followers/manojsarna?style=social)
+[![GitHub followers](https://img.shields.io/github/followers/manojsarna?style=social)](https://github.com/manojsarna)
 &emsp;
 ![Forks](https://img.shields.io/github/forks/manojsarna/manoj-smash-quiz)
 &emsp;
 ![Stars](https://img.shields.io/github/stars/manojsarna/manoj-smash-quiz)
 &emsp;
-![Twitter Follow](https://img.shields.io/twitter/follow/manojsarnacom?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/manojsarnacom?style=social)](https://twitter.com/manojsarnacom)
 
 </div>
 
