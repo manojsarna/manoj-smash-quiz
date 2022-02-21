@@ -93,7 +93,6 @@
 
     --COLOR-QUIZ-BTN-BG: 68, 214, 44;
 
-    /* TEXT COLOR 255, 140, 0;*/
     /* DARK THEME */
 
     --COLOR-OVERLAY: rgb(234, 234, 236, 0.6);
@@ -130,8 +129,10 @@
     --COLOR-BG-WHITE-GREEN: #E8FFED;
     --COLOR-BG-BLACK: #222222;
 
-}
+    /* BREAKPOINTS */
+    --BREAKPOINT-TABLET: 768px;
 
+}
 
 html[data-theme='light'] {
     --COLOR-BG: #ffffff;
@@ -193,10 +194,6 @@ picture {
     width: 5px;
     height: 5px;
 }
-
-/* ::-webkit-scrollbar-track {
-    background-color: var(--COLOR-SCROLL);
-    } */
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--COLOR-PRIMARY);

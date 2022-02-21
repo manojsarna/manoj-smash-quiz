@@ -1,6 +1,6 @@
 /* FOOTER STARTS */
 
-.sm-footer{
+.sm-footer {
     grid-area: footer;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     gap: 3rem;
 }
 
-.sm-footer-social .btn-social{
+.sm-footer-social .btn-social {
     font-size: 3rem;
 }
 

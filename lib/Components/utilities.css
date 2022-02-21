@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
 }
+
 body {
     min-height: 100vh;
     max-width: 100%;
@@ -19,11 +20,11 @@ body {
 }
 
 /* FOR CARDS */
-.sm-card .sm-card-content .sm-card-info .cart-btn{
+.sm-card .sm-card-content .sm-card-info .cart-btn {
     white-space: nowrap;
 }
 
-.sm-card{
+.sm-card {
     width: 24rem;
 }
 
