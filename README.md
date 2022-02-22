@@ -23,7 +23,7 @@ Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movie
 ---
 
 ## Video Demo :
-https://user-images.githubusercontent.com/79917843/154878011-7e5257c1-70f4-46f1-9f04-59131d50cc47.mp4
+https://user-images.githubusercontent.com/45617406/155206564-38afd857-6edf-43cd-98bf-9592cf26249f.mp4
 
 ---
 
